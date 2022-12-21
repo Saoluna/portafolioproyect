@@ -48,3 +48,25 @@
 .i-icons>*:hover{
     cursor: pointer;
 }
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute
+    
+}
+
+.i-right>:nth-child(1)
+{
+    transform: scale(1.40);
+  
+}
+
+.i-right>:nth-child(2)
+{
+    transform: scale(0.50);
+    
+}
