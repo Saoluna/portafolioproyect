@@ -29,23 +29,34 @@
 {
     color: rgb(252, 176, 53);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .i-name>:nth-child(3)
 {
     font-weight: 100;
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(113, 116, 119);
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .i-right{
-    flex: 0.5;
+    flex: 1;
+    
 }
+
+.i-right>:nth-child(1){
+    transform: scale(1.8);
+    left: 10rem;
+}
+    
 
 .i-right>:nth-child(2)
 {
     transform: scale(0.5);
+    left: 10rem;
+    display: flex;
+ 
+   
 }
 
 .i-button{
@@ -64,4 +75,25 @@
 
 .i-icons>:hover{
     cursor: pointer;
+}
+
+.sol{
+    transform: scale(0.4);
+    left: -24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blur{
+    position: absolute;
+    width: 50rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: rgb(144, 84, 164);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(100px);
 }

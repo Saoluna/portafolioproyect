@@ -1,0 +1,26 @@
+.card{
+    width: 10rem;
+    height: 15rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 8rem;
+    text-align: center;
+    background: rgb(240, 221, 255);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0 26px 2rem 26px;
+}
+
+.c-button{
+    background: linear-gradient(180deg, #ebb136,#8c58c7 );
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+}
+
