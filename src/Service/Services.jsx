@@ -18,7 +18,10 @@
                    reprehenderit esse rerum repudiandae nulla odit reiciendis 
                 </span>
                 <button className="button s-button">
-                    Descargar CV</button>
+                     {/*Llamar al "a" para colocar el enlace de descarga entre{} y agg el dowland*/}
+                        Descargar CV 
+                    
+                    </button>
                 <div className='blur'style={{background: "rgb(238 210 255)"}}></div>
                 <div className='blur'style={{background: "rgb(225, 146, 61)", top: '30rem', width: '100rem',height:'8rem', left: '11rem' }}></div>
             </div>
