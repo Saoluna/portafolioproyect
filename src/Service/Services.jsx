@@ -33,7 +33,7 @@
                 </div>
                 {/*second card*/}
                 <div style={{top: "12rem", left: "-4rem"}}>
-                    <Card emoji={Nubes} headding={"Programadora"} detail={"Html, Css,JavaScript, React"} />
+                    <Card emoji={Nubes} headding={"Desarrollo"} detail={"Html, Css,JavaScript, React"} />
                 </div>
                 {/*3rd*/}
                 <div style={{top: "19rem", left:"12rem"}}>

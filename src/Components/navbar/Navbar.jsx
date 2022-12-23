@@ -1,12 +1,13 @@
 import './Navbar.css'
 import Inicio from '../navbar/inicio.svg'
+import { Toggle } from '../Toggle/Toggle';
 
 export const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">Saoluna</div>
-      <span>Toggle</span>
+      <Toggle/>
       </div>
       <div className="n-right">
         <div className="n-list">
