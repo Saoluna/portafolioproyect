@@ -1,8 +1,8 @@
 import './Testimonios.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import profilePic1 from '../Testimonios/profilePic1.png';
-import profilePic2 from '../Testimonios/profilePic2.png';
-import profilePic3 from '../Testimonios/profilePic3.png';
+import profilePic1 from '../../assets/profilePic1.png';
+import profilePic2 from '../../assets/profilePic2.png';
+import profilePic3 from '../../assets/profilePic3.png';
 import {Pagination} from "swiper";
 import 'swiper/css/pagination';
 import 'swiper/css';

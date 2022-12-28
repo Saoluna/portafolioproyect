@@ -1,14 +1,14 @@
 
 import './Intro.css'
-import Github from '../img/github.png';
-import LinkedIn from '../img/linkedin.png';
-import Instagram from '../img/instagram.png'
-import Cielo from '../img/cielo.png'
-import Icono from '../img/seleneimg.png'
+import Github from '../../assets/github.png';
+import LinkedIn from '../../assets/linkedin.png';
+import Instagram from '../../assets/instagram.png'
+import Cielo from '../../assets/cielo.png'
+import Icono from '../../assets/seleneimg.png'
 import { FloatingDiv } from '../FloatingDiv/FloatingDiv';
-import crown from '../img/crown.png'
-import Sol from '../img/sol.png'
-import Blur from '../img/purpleblur.png'
+import crown from '../../assets/crown.png'
+import Sol from '../../assets/sol.png'
+import Blur from '../../assets/purpleblur.png'
 
 
 

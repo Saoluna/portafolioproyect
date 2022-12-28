@@ -1,9 +1,9 @@
 import './Portafolio.css';
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Calculadora from '../Portafolio/calculadora.png';
-import Nitf from '../Portafolio/NITF.png';
-import WebTriburo from '../Portafolio/webtributo.png';
-import Coderhunt from '../Portafolio/coderhunt.png';
+import Calculadora from '../../assets/calculadora.png';
+import Nitf from '../../assets/NITF.png';
+import WebTriburo from '../../assets/webtributo.png';
+import Coderhunt from '../../assets/coderhunt.png';
 import 'swiper/css'
 
 

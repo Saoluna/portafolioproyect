@@ -1,9 +1,9 @@
 import './Works.css'
-import Upwork from '../Works/Upwork.png';
-import Amazon from '../Works/amazon.png';
-import Shopify from '../Works/Shopify.png';
-import Facebook from '../Works/Facebook.png';
-import Fiverr from '../Works/fiverr.png';
+import Upwork from '../../assets/Upwork.png';
+import Amazon from '../../assets/amazon.png';
+import Shopify from '../../assets/Shopify.png';
+import Facebook from '../../assets/Facebook.png';
+import Fiverr from '../../assets/fiverr.png';
 export const Works= () =>{
     return(
         <div className="works">
