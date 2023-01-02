@@ -2,9 +2,17 @@
     padding: 0 3rem 0 3rem;
     display: flex;
     height: 80vh;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
+.awesome>*{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.awesome>span:nth-of-type(2){
+    color: var(--orange);
+}
 .c-right{
     display: flex;
     justify-content: center;
@@ -12,23 +20,30 @@
     flex: 1;
 }
 
-.c-right>form{
+.c-right>form
+{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+  
 }
 
-.c-right .user{
+.user{
     width: 20rem;
     height: 2rem;
     padding: 0.3rem;
     outline: none;
-    border: 2px solid var(--orange);
     border-radius: 8px;
     font-size: 16px;
+    border: 2px solid var(--orange);
 }
 
 textarea{
-    height: 4rem;
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
 }
