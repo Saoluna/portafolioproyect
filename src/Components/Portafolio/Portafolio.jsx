@@ -5,13 +5,16 @@ import Nitf from '../../assets/NITF.png';
 import WebTriburo from '../../assets/webtributo.png';
 import Coderhunt from '../../assets/coderhunt.png';
 import 'swiper/css'
-
+import { themeContext } from '../../Context';
+import { useContext } from 'react'
 
 export const Portafolio =() =>{
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return(
-        <div className="portafolio">
+        <div className="portafolio" id='Portafolio'>
             {/*headding*/}
-            <span>Proyectos Recientes</span>
+            <span style={{color: darkMode? 'white': ''}} >Proyectos Recientes</span>
             <span>Portfolio</span>
 
             {/*slider*/}

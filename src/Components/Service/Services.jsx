@@ -4,14 +4,18 @@
  import Nubes from '../../Card/nubes.png'
  import Estrella from '../../Card/estrella.png'
  import { Card } from '../../Card/Card'
+ import { themeContext } from '../../Context';
+import { useContext } from 'react'
 
 
  export const Services= () =>{
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
-        <div className="services">
+        <div className="services" id='Servicios'>
             {/* Left side*/}
             <div className='increible'>
-                <span>Mis Increíbles</span>
+                <span style={{color: darkMode? 'white': ''}} >Mis Increíbles</span>
                 <span>Servicios</span>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur 
                     <br/>
@@ -27,17 +31,17 @@
             </div>
 
             {/*right side*/}
-            <div className="cards">
-                <div style={{left: '10rem'}}>
-                    <Card emoji= {Arcoiris} headding ={'Diseño'} texto = {"Figma, Adobe, Sketch xD"}/>
+            <div  className="cards">
+                <div  style={{left: '10rem'}}>
+                    <Card  emoji= {Arcoiris} headding ={'Diseño'} texto = {"Figma, Adobe,Sketch"}/>
                 </div>
                 {/*second card*/}
                 <div style={{top: "12rem", left: "-4rem"}}>
-                    <Card emoji={Nubes} headding={"Desarrollo"} detail={"Html, Css,JavaScript, React"} />
+                    <Card emoji={Nubes} headding={"Desarrollo"} detail={"Html, Css, JS, React"} />
                 </div>
                 {/*3rd*/}
                 <div style={{top: "19rem", left:"12rem"}}>
-                    <Card emoji={Estrella} headding= {"IU/UX"}/>
+                    <Card emoji={Estrella} headding= {"IU/UX"} detail={"Html, Css, JS, React"}/>
 
                 </div>
              </div>

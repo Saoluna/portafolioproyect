@@ -1,4 +1,3 @@
-
 import './FloatingDiv.css'
 
 export const FloatingDiv = ({image,txt1,txt2, Sol, purpleblur }) =>{

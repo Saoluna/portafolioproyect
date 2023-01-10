@@ -45,3 +45,23 @@
 .cards>*{
     position: absolute;
 }
+
+@media screen and (max-width: 480px) {
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 7rem;
+        height: 68rem;
+        padding: 0;
+       
+    }
+    
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 20rem;
+    }
+    .cards>*{
+        position: static;
+    }
+}

@@ -8,16 +8,19 @@ import Icono from '../../assets/seleneimg.png'
 import { FloatingDiv } from '../FloatingDiv/FloatingDiv';
 import crown from '../../assets/crown.png'
 import Sol from '../../assets/sol.png'
-import Blur from '../../assets/purpleblur.png'
-
-
+import { themeContext } from '../../Context';
+import { useContext } from 'react'
+import {motion} from 'framer-motion'
 
 export const Intro= () =>{
+    const transition = {duration : 2, type : 'spring'}
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className="intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span>!Hola¡ Soy</span>
+                    <span style={{color: darkMode? 'white': ''}} >!Hola¡ Soy</span>
                     <span>Selene Ocanto</span>
                     <span>Full Stack en Programación con gran nivel de experiencia; produciendo Calidad de trabajos</span>
                 </div>
@@ -36,15 +39,15 @@ export const Intro= () =>{
                         </a>
                     </div>
             </div>
-            <div className="i-right">
-                <img src={Cielo} alt="" />
-                <img src={Icono} alt="" />
+            <div className="i-right"  >
+                <img  className='floating-Div' src={Cielo} alt="" />
+                <img className='icono' src={Icono} alt="" />
             </div>
              <div className='sol' >
-                <img src={Sol} alt="" />
+                <img className='floating-Div'src={Sol} alt="" />
             </div>
-            <div style={{top: '10rem', left: '15%'}}>
-                <FloatingDiv image={crown} txt1='Web' txt2='Developer' />
+            <div style={{top: '10rem', left: '15%'}} className='floating-Div'>
+                <FloatingDiv className='floating-Div' image={crown} txt1='Web' txt2='Developer' />
             </div>
               {/*blur divs*/}
             <div className='blur'style={{background: "rgb(238 210 255)"}}></div>

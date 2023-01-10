@@ -28,7 +28,7 @@ export const Testimonial =() => {
     ];
 
     return(
-      <div className="t-wrapper">
+      <div className="t-wrapper"id='Testimonios' >
           <div className="t-heading">
                 <span>Clientes que obtienen</span>
                 <span>Trabajos Excepcionales</span>
