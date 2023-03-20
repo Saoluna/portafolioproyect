@@ -86,3 +86,27 @@
 .orangeCircle{
     background: rgb(220, 155, 57);
 }
+
+@media screen and (max-width: 480px) {
+    .works{
+        flex-direction: column;
+        height: 40rem;
+        padding: 0;
+        
+    }
+
+    .w-right{
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        transform: scale(0.7);
+    }
+
+    .w-mainCircle{
+        position: static;
+    }
+
+    .w-blackCircle{
+        left: 8rem!important;
+    }
+}

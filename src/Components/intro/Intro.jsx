@@ -10,19 +10,18 @@ import crown from '../../assets/crown.png'
 import Sol from '../../assets/sol.png'
 import { themeContext } from '../../Context';
 import { useContext } from 'react'
-import {motion} from 'framer-motion'
 
 export const Intro= () =>{
-    const transition = {duration : 2, type : 'spring'}
+    
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className="intro">
+        <div className="Intro">
             <div className="i-left">
                 <div className="i-name">
                     <span style={{color: darkMode? 'white': ''}} >!Hola¡ Soy</span>
                     <span>Selene Ocanto</span>
-                    <span>Full Stack en Programación con gran nivel de experiencia; produciendo Calidad de trabajos</span>
+                    <span>Full Stack en Programación Junior </span>
                 </div>
 
                     <button className="button i-button">Contrátame</button>
@@ -40,14 +39,13 @@ export const Intro= () =>{
                     </div>
             </div>
             <div className="i-right"  >
-                <img  className='floating-Div' src={Cielo} alt="" />
+                <img src={Cielo} alt="" />
                 <img className='icono' src={Icono} alt="" />
+                 <img className='sol' src={Sol} alt="" />
             </div>
-             <div className='sol' >
-                <img className='floating-Div'src={Sol} alt="" />
-            </div>
-            <div style={{top: '10rem', left: '15%'}} className='floating-Div'>
-                <FloatingDiv className='floating-Div' image={crown} txt1='Web' txt2='Developer' />
+             
+            <div style={{top: "-4%", left: "68%"}} className='floating-Div'>
+                <FloatingDiv  image={crown} txt1='Web' txt2='Developer' />
             </div>
               {/*blur divs*/}
             <div className='blur'style={{background: "rgb(238 210 255)"}}></div>

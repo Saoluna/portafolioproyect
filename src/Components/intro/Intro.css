@@ -1,4 +1,4 @@
-.intro{
+.Intro{
     display: flex;
     height: 77vh;
     margin-top: 6rem;
@@ -41,6 +41,7 @@
 }
 .i-right{
     flex: 1;
+    left: -10rem;
     
 }
 
@@ -78,8 +79,7 @@
 }
 
 .sol{
-    transform: scale(0.4);
-    left: -24%;
+    transform: scale(0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,26 +98,31 @@
     filter: blur(100px);
 }
 @media screen and (max-width: 480px){
-    .intro{
+    .Intro{
         flex-direction: column;
-        height: 68rem;
-        gap: 7rem;
+        height: 50rem;
+        gap: 6rem;
     }
     .i-right{
         transform: scale(0.5);
-        left: -7rem;
+        padding-top: 2rem;
+        left: -8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
     .icono{
-        transform: scale(0.8);
+        transform: scale(0.3);
+
     }
     .sol{
-        transform: scale(0.2);
-        
+        transform: scale(0.5);
+        left: -1rem;
+        margin-top: 3rem;
     }
     .i-right .blur{
         display: none;
     }
-.floating-Div:nth-of-type(1){
-    top: -7rem !important;
-}
+
 }

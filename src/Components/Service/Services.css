@@ -48,10 +48,10 @@
 
 @media screen and (max-width: 480px) {
     .services{
-        margin-top: 0;
+        margin-top: 10px;
         flex-direction: column;
-        gap: 7rem;
-        height: 68rem;
+        gap: 5rem;
+        height: 66rem;
         padding: 0;
        
     }

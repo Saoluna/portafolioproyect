@@ -71,3 +71,12 @@
     transform: scale(0.50);
     
 }
+
+@media screen and (max-width:480px){
+    .n-list{
+        display: none;
+    }
+    .n-button{
+        display: none;
+    }
+}

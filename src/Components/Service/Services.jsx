@@ -33,7 +33,7 @@ import { useContext } from 'react'
             {/*right side*/}
             <div  className="cards">
                 <div  style={{left: '10rem'}}>
-                    <Card  emoji= {Arcoiris} headding ={'Diseño'} texto = {"Figma, Adobe,Sketch"}/>
+                    <Card  emoji= {Arcoiris} headding ={'Diseño'} texto = {"Figma"}/>
                 </div>
                 {/*second card*/}
                 <div style={{top: "12rem", left: "-4rem"}}>
@@ -41,7 +41,7 @@ import { useContext } from 'react'
                 </div>
                 {/*3rd*/}
                 <div style={{top: "19rem", left:"12rem"}}>
-                    <Card emoji={Estrella} headding= {"IU/UX"} detail={"Html, Css, JS, React"}/>
+                    <Card emoji={Estrella} headding= {"IU/UX"} detail={"Diseño de Interfaces y de Experiencia de Usuario"}/>
 
                 </div>
              </div>

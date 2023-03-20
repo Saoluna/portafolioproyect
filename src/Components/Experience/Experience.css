@@ -43,3 +43,11 @@
 {
     color: va;
 }
+
+@media screen and (max-width: 480px) {
+    .archievement{
+        transform: scale(0.8);
+        width: auto;
+       
+    }
+}
