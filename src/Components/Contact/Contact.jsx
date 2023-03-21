@@ -1,5 +1,4 @@
 import './Contact.css'
-
 import { themeContext } from '../../Context';
 import { useContext } from 'react'
 export const Contact =() =>{

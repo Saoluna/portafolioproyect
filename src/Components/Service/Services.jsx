@@ -1,9 +1,9 @@
 
  import './Services.css'
- import Arcoiris from '../../Card/arcoiris.png'
- import Nubes from '../../Card/nubes.png'
- import Estrella from '../../Card/estrella.png'
- import { Card } from '../../Card/Card'
+ import Arcoiris from '../Card/arcoiris.png'
+ import Nubes from '../Card/nubes.png'
+ import Estrella from '../Card/estrella.png'
+ import { Card } from '../Card/Card'
  import { themeContext } from '../../Context';
 import { useContext } from 'react'
 import CV from '../../assets/CVSeleneOcantoLuna.pdf';

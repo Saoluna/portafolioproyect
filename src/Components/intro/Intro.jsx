@@ -10,6 +10,7 @@ import crown from '../../assets/crown.png'
 import Sol from '../../assets/sol.png'
 import { themeContext } from '../../Context';
 import { useContext } from 'react'
+import CV from '../../assets/CVSeleneOcantoLuna.pdf';
 
 export const Intro= () =>{
     
@@ -24,7 +25,7 @@ export const Intro= () =>{
                     <span>Full Stack en Programación Junior </span>
                 </div>
 
-                    <button className="button i-button">Contrátame</button>
+                    <button className="button i-button"> <a href={CV} download>Contrátame </a></button>
 
                     <div className="i-icons">
                         <a href="https://github.com/Saoluna">
