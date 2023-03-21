@@ -19,9 +19,9 @@ export const Contact =() =>{
              </div>
 
                 <div className="c-rigth">
-                    <form>
+                    <form action="https://formsubmit.co/seleneocantoluna@gmail.com" method="POST">
                         <input type="text" name="user_name" className="user"  placeholder="Nombre" />
-                        <input type="email" name="user_email" className="user"  placeholder="Email"/>
+                        <input type="email" name="user_email" className="user"  placeholder="Correo"/>
                         <textarea name="message" className="user" placeholder="Mensaje" />
                         <input type="submit" value="Enviar" className="button"/>
                         <div className='blur'style={{background: "rgb(225, 146, 61)", top: '30rem', width: '100rem',height:'8rem', left: '11rem' }}></div>

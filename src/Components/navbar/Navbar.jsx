@@ -28,11 +28,11 @@ export const Navbar = () => {
             <Link spy={true} to='Testimonios' smooth={true} activeClass="activeClass">
             <li>Testimonios</li>
             </Link>
+            <Link spy={true} to='Contactame' smooth={true} activeClass="activeClass">
+            <li className="button">Contactame</li>
+            </Link>
          </ul>
        </div>
-        <button className="button">
-        Contáctame
-        </button>
       </div>
     </div>
   );

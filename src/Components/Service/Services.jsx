@@ -6,6 +6,7 @@
  import { Card } from '../../Card/Card'
  import { themeContext } from '../../Context';
 import { useContext } from 'react'
+import CV from '../../assets/CVSeleneOcantoLuna.pdf';
 
 
  export const Services= () =>{
@@ -23,7 +24,7 @@ import { useContext } from 'react'
                 </span>
                 <button className="button s-button">
                      {/*Llamar al "a" para colocar el enlace de descarga entre{} y agg el dowland*/}
-                        Descargar CV 
+                     <a href={CV} download>Descargar CV</a>
                     
                     </button>
                 <div className='blur'style={{background: "rgb(238 210 255)"}}></div>
@@ -33,15 +34,15 @@ import { useContext } from 'react'
             {/*right side*/}
             <div  className="cards">
                 <div  style={{left: '10rem'}}>
-                    <Card  emoji= {Arcoiris} headding ={'Diseño'} texto = {"Figma"}/>
+                    <Card  emoji= {Arcoiris} headding ={'Diseño'} texto = {"Wireframe, Figma"}/>
                 </div>
                 {/*second card*/}
                 <div style={{top: "12rem", left: "-4rem"}}>
                     <Card emoji={Nubes} headding={"Desarrollo"} detail={"Html, Css, JS, React"} />
                 </div>
                 {/*3rd*/}
-                <div style={{top: "19rem", left:"12rem"}}>
-                    <Card emoji={Estrella} headding= {"IU/UX"} detail={"Diseño de Interfaces y de Experiencia de Usuario"}/>
+                <div style={{top: "20rem", left:"12rem"}}>
+                    <Card emoji={Estrella} headding= {"IU/UX"} detail={"Diseño de Interfaces"}/>
 
                 </div>
              </div>
