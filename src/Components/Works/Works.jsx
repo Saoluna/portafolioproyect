@@ -7,6 +7,7 @@ import Fiverr from '../../assets/fiverr.png';
 import { themeContext } from '../../Context';
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
+import CV from '../../assets/CVSeleneOcantoLuna.pdf'
 
 
 export const Works= () =>{
@@ -26,7 +27,7 @@ export const Works= () =>{
                    <br/>
                    reprehenderit esse rerum repudiandae nulla odit reiciendis 
                 </span>
-                <button className="button s-button">Descargar CV</button>
+                <button className="button s-button"> <a href={CV} download>Descargar CV</a></button>
                 
                 <div className='blur'style={{background: "rgb(238 210 255)"}}></div>
                 <div className='blur'style={{background: "rgb(225, 146, 61)", top: '30rem', width: '100rem',height:'8rem', left: '11rem' }}></div>

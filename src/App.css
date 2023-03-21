@@ -33,7 +33,8 @@
   color: var(--rgb(64, 18, 102));
   border: 1px solid var(--rgb(38, 33, 33));
 }
-  
+
+
 @media screen and (max-width: 480px) {
   .App{
     padding: 0.5rem 1rem;

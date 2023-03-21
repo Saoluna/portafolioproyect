@@ -48,6 +48,12 @@
     .archievement{
         transform: scale(0.8);
         width: auto;
-       
+    }
+    .experience{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        height: 30vh;
     }
 }
