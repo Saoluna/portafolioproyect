@@ -18,7 +18,7 @@ export const Contact =() =>{
              </div>
 
                 <div className="c-rigth">
-                    <form action="https://formsubmit.co/seleneocantoluna@gmail.com" method="POST">
+                    <form action="https://formsubmit.co/3e8ec3815beefdcb849e2482102fd62b" method="POST">
                         <input type="text" name="user_name" className="user"  placeholder="Nombre" />
                         <input type="email" name="user_email" className="user"  placeholder="Correo"/>
                         <textarea name="message" className="user" placeholder="Mensaje" />

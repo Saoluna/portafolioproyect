@@ -6,7 +6,6 @@ import { Services } from "./Components/Service/Services";
 import { Experience } from "./Components/Experience/Experience";
 import { Works } from "./Components/Works/Works";
 import { Portafolio } from "./Components/Portafolio/Portafolio";
-import { Testimonial } from "./Components/Testimonios/Testimonial";
 import { Footer } from "./Components/Footer/Footer";
 import {themeContext} from './Context'
 import { useContext } from "react";
@@ -23,7 +22,6 @@ function App(){
     <Experience/>
     <Works/>
     <Portafolio/>
-    <Testimonial/>
     <Contact/>
     <Footer/>
     </div>

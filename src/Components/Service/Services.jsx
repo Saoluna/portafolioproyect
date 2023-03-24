@@ -18,9 +18,7 @@ import CV from '../../assets/CVSeleneOcantoLuna.pdf';
             <div className='increible'>
                 <span style={{color: darkMode? 'white': ''}} >Mis Increíbles</span>
                 <span>Servicios</span>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur 
-                    <br/>
-                   reprehenderit esse rerum repudiandae nulla odit reiciendis 
+                <span> Algunos de los servicios en los cuales me destaco 
                 </span>
                 <button className="button s-button">
                      {/*Llamar al "a" para colocar el enlace de descarga entre{} y agg el dowland*/}

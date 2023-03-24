@@ -25,11 +25,8 @@ export const Navbar = () => {
             <Link spy={true} to='Portafolio' smooth={true} activeClass="activeClass">
             <li>Portfolio</li>
             </Link>
-            <Link spy={true} to='Testimonios' smooth={true} activeClass="activeClass">
-            <li>Testimonios</li>
-            </Link>
-            <Link spy={true} to='Contactame' smooth={true} activeClass="activeClass">
-            <li className="button">Contactame</li>
+            <Link spy={true} to='Contactame' smooth={true} activeClass="activeClass" className="button">
+            <li>Contáctame</li>
             </Link>
          </ul>
        </div>

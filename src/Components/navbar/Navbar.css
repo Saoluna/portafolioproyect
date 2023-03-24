@@ -39,7 +39,7 @@
 
 .n-list>ul>li:hover{
     cursor: pointer;
-    color: var(--orange);
+    color: orange;
 }
 
 .i-icons>*{

@@ -1,9 +1,5 @@
 import './Works.css'
-import Upwork from '../../assets/Upwork.png';
-import Amazon from '../../assets/amazon.png';
-import Shopify from '../../assets/Shopify.png';
-import Facebook from '../../assets/Facebook.png';
-import Fiverr from '../../assets/fiverr.png';
+import Educamas from '../../assets/educamaslogo1.png';
 import { themeContext } from '../../Context';
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
@@ -19,13 +15,7 @@ export const Works= () =>{
              <div className='increible'>
                 <span style={{color: darkMode? 'white': ''}} >Trabajos </span>
                 <span>Marcas & Clientes</span>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur 
-                    <br/>
-                   reprehenderit esse rerum repudiandae nulla odit reiciendis 
-                   <br/>
-                   reprehenderit esse rerum repudiandae nulla odit reiciendis 
-                   <br/>
-                   reprehenderit esse rerum repudiandae nulla odit reiciendis 
+                <span> Durante mi tiempo de aprendizaje en el Bootcamp adquirí toda mi experiencia en la organización Programate Academy Educamás
                 </span>
                 <button className="button s-button"> <a href={CV} download>Descargar CV</a></button>
                 
@@ -41,19 +31,19 @@ export const Works= () =>{
                     className="w-mainCircle">
 
                         <div className="w-secCircle">
-                            <img src={Upwork} alt="" />
+                            <img src={Educamas} alt="" />
                          </div>
                         <div className="w-secCircle">
-                             <img src={Fiverr} alt="" />
+                             <img src={Educamas} alt="" />
                         </div>
                          <div className="w-secCircle">
-                             <img src={Amazon} alt="" />
+                             <img src={Educamas} alt="" />
                         </div>
                          <div className="w-secCircle">
-                             <img src={Shopify} alt="" />
+                             <img src={Educamas} alt="" />
                         </div>
                          <div className="w-secCircle">
-                             <img src={Facebook} alt="" />
+                             <img src={Educamas} alt="" />
                          </div>
                  </motion.div>
                 </div>

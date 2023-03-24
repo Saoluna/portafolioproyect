@@ -31,8 +31,10 @@ export const Intro= () =>{
                         <a href="https://github.com/Saoluna">
                             <img src={Github} alt="github" />
                         </a>
-
-                        <img src={LinkedIn} alt="" />
+                        <a href="https://www.linkedin.com/in/selene-ocanto-5bb212252/">
+                            <img src={LinkedIn} alt="" />
+                        </a>
+                        
 
                         <a href="https://www.instagram.com/saoluna_/">
                             <img src={Instagram} alt="" />
